@@ -1,0 +1,56 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pub
+*service-account*.json
+*credentials*.json
+
+# Terraform local state and secrets
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars
+crash.log
+crash.*.log
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Archives and assignment bundles
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Benchmark outputs
+benchmark_results*.csv
+locust_stats*.csv
+
+# Training outputs except the curated model artifact
+runs/**
+!runs/
+!runs/detect/
+!runs/detect/train/
+!runs/detect/train/weights/
+!runs/detect/train/weights/best.pt

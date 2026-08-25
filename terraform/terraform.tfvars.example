@@ -1,0 +1,8 @@
+project_id   = "your-gcp-project-id"
+region       = "australia-southeast2"
+zone         = "australia-southeast2-a"
+network      = "default"
+machine_type = "e2-custom-4-8192"
+image        = "ubuntu-os-cloud/ubuntu-2404-lts-amd64"
+ssh_user     = "ubuntu"
+name_suffix  = "-tf"

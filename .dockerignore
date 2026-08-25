@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.git/
+.gitignore
+README.md
+terraform/
+k8s/
+test_images/
+locustfile.py
+*.zip
+*.pdf
